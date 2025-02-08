@@ -1,32 +1,30 @@
 # Product-Segmentation-for-Resource-allocation
-## Aim
-Let's say there is a retail company. They want their inventory to consist of products that bring the highest revenue.
+## Background
+Amazon is a big e-commerce company. They want their inventory to consist of products that bring the highest revenue.
 The question for me, as a Data Scientist, is how can I automate this analysis with Python?
 
 Using Amazon sales data, I demonstrate a possible solution in Python. I use ABC and ABC-XYZ analyses.
 
-## Report
+## Executive summary
 
 ### ABC Analysis
-Let's look at the resultant ABC analysis chart: 
+The resultant ABC analysis chart: 
 
 ![image](https://github.com/user-attachments/assets/129a0efc-22af-4950-93c0-c7fed8ad4bae)
 
-We see that out of total of 2927 SKUs to be managed:
+Out of total of 2927 SKUs to be managed:
 - The top 10% products contribute to 60% of revenue (class A).
 - 28% products contribute to 25% of revenue (class B).
 - 62% products contribute to 10% of revenue (class C).
 
-**Suggestions:** 
-- Since class A comprises as little as 10% of SKUs, while bringing most of revenue, we should always have these items in stock.
-- We should also invest resources in marketing and promoting class B SKUs in order to increase their sales potential, as this group consists of only 28% of items but contributes to a good percentage of revenue. 
-
 ### ABC-XYZ Analysis
-Let's look at the resultant ABC-XYZ analysis chart:
+The resultant ABC-XYZ analysis chart:
 
 ![image](https://github.com/user-attachments/assets/1d3ea98d-cddc-49c5-88e6-debe501d1439)
 
-**Suggestions**: 
+## Recommendations
+- Since class A comprises as little as 10% of SKUs, while bringing most of revenue, we should always have these items in stock.
+- We should also invest resources in marketing and promoting class B SKUs in order to increase their sales potential, as this group consists of only 28% of items but contributes to a good percentage of revenue.
 
 - **A-class (Blue)**: the highest-priority SKUs in terms of sales volume and revenue contribution.
   - Pay close attention to these 297 references to ensure optimal inventory levels.
@@ -41,8 +39,7 @@ Let's look at the resultant ABC-XYZ analysis chart:
 Challenges come from the items with CoV > 1.2
 - A Coefficient of variation greater than 1 indicates unstable demand that needs more attention.
 - Use advanced forecasting methods, collaborate with suppliers for better demand visibility and
-responsiveness to reduce the impact of demand variability.
-
+responsiveness to reduce the impact of demand variability. 
 
 ## Background
 A common approach to this inventory management problem is **ABC analysis**. ABC analysis is a method of dividing inventory into three classes - A, B, and C - based on the total annual/monthly consumption value of items. 
