@@ -3,7 +3,8 @@
 Amazon is a global e-commerce company selling products of various categories via its website and mobile app. 
 
 The company has big amounts of data on its sales. This project analyzes this data in order to optimize Amazon's inventory so that it consists of products that bring the highest revenue.
-The question for me, as a Data Scientist, is how can I automate this analysis with Python?
+Insights and recommendations are provided in the following areas:
+- 
 
 Using Amazon sales data, I demonstrate a possible solution in Python. I use ABC and ABC-XYZ analyses.
 
