@@ -10,7 +10,7 @@ Insights and recommendations are provided in the following areas:
 ## Data structure
 Sales data consists of one table with 487,827 rows. To perform the inventory analysis, data from one month, November 2010, is used, as for a fast-paced industry like retail monthly trends are important. The total number of rows used in analysis is 77,733.
 ![Untitled (5)](https://github.com/user-attachments/assets/fd53b4e3-3454-4737-9a07-e4925063e56d)
-
+f
 
 ## Executive summary
 
