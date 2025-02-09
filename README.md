@@ -5,9 +5,10 @@ Amazon is a global e-commerce company selling products of various categories via
 The company has big amounts of data on its sales. This project analyzes this data in order to optimize Amazon's inventory so that it consists of products that bring the highest revenue.
 
 Insights and recommendations are provided in the following areas:
-- 
+
 
 ## Data structure
+Sales data consists of one table with 487,827 rows. To perform the inventory analysis the data from years 2010-2011 are used.
 
 ## Executive summary
 
