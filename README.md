@@ -9,6 +9,8 @@ Insights and recommendations are provided in the following areas:
 
 ## Data structure
 Sales data consists of one table with 487,827 rows. To perform the inventory analysis the data from years 2010-2011 are used.
+![Untitled (5)](https://github.com/user-attachments/assets/fd53b4e3-3454-4737-9a07-e4925063e56d)
+
 
 ## Executive summary
 
