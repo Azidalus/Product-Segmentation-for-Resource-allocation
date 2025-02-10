@@ -8,7 +8,7 @@
 ## Project background
 Amazon is a global e-commerce company selling products of various categories via its website and mobile app. 
 
-The company has big amounts of data on its sales. This project analyzes this data in order to optimize Amazon's inventory so that the supply chain and marketing departments know on what SKU's to focus. hold in stock consists of products that bring the highest revenue.
+The company has big amounts of data on its sales. This project analyzes this data in order to optimize Amazon's inventory so that the supply chain and marketing departments know on what SKU's to focus.
 
 Insights and recommendations are provided in the following areas:
 
@@ -38,8 +38,12 @@ The resultant ABC-XYZ analysis chart:
 ![image](https://github.com/user-attachments/assets/1d3ea98d-cddc-49c5-88e6-debe501d1439)
 
 ## Recommendations
-- Since class A comprises as little as 10% of SKUs, while bringing most of revenue, we should always have these items in stock.
-- We should also invest resources in marketing and promoting class B SKUs in order to increase their sales potential, as this group consists of only 28% of items but contributes to a good percentage of revenue.
+**For marketing department:**
+- We should invest resources in marketing and promoting class B SKUs in order to increase their sales potential, as this group consists of only 28% of items but contributes to a good percentage of revenue.
+
+**For supply chain department:**
+-  We should always have items from class A in stock, as this class comprises as little as 10% of SKUs, while bringing most of revenue.
+-
 
 - **A-class (Blue)**: the highest-priority SKUs in terms of sales volume and revenue contribution.
   - Pay close attention to these 297 references to ensure optimal inventory levels.
