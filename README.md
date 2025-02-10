@@ -8,10 +8,7 @@
 ## Project background
 Amazon is a global e-commerce company selling products of various categories via its website and mobile app. 
 
-The company has big amounts of data on its sales. This project analyzes this data in order to optimize Amazon's inventory so that the supply chain and marketing departments know on what SKU's to focus.
-
-Insights and recommendations are provided in the following areas:
-
+The company has big amounts of data on its sales. This project analyzes this data in order to optimize Amazon's inventory so that the company knows on what SKU's to focus. Based on the analysis insights, recommendations are provided for two departments: supply chain and marketing.
 
 ## Data structure
 Sales data consists of one table with 487,827 rows. To perform the inventory analysis, data from one month, November 2010, is used, as for a fast-paced industry like retail monthly trends are important. The total number of rows used in analysis is 77,733.
