@@ -26,11 +26,13 @@ The resultant ABC analysis chart:
 ![image](https://github.com/user-attachments/assets/129a0efc-22af-4950-93c0-c7fed8ad4bae)
 
 Out of total of 2927 SKUs to be managed:
-- The top 10% products contribute to 60% of revenue (class A).
-- 28% products contribute to 25% of revenue (class B).
-- 62% products contribute to 10% of revenue (class C).
+- The top 10% products contribute to 60% of revenue (class A). These are high-value items, often characterized by high demand, significant sales volume, and potential stockout risks.
+- 28% products contribute to 25% of revenue (class B). These items hold moderate importance.
+- 62% products contribute to 10% of revenue (class C). These are low-value items, often characterized by low demand and minimal impact on overall inventory costs.
 
 ### ABC-XYZ Analysis
+Since ABC classification is, for many situations, over simplistic, 
+
 The resultant ABC-XYZ analysis chart:
 
 ![image](https://github.com/user-attachments/assets/1d3ea98d-cddc-49c5-88e6-debe501d1439)
