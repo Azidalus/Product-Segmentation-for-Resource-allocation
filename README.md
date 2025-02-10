@@ -34,13 +34,23 @@ The resultant ABC-XYZ analysis chart:
 
 ![image](https://github.com/user-attachments/assets/1d3ea98d-cddc-49c5-88e6-debe501d1439)
 
+Challenges come from the items with CoV > 1.2. Coefficient of variation greater than 1 indicates unstable demand that needs more attention.
+
 ## Recommendations
-**For marketing department:**
+**For marketing department**
 - We should invest resources in marketing and promoting class B SKUs in order to increase their sales potential, as this group consists of only 28% of items but contributes to a good percentage of revenue (25%).
 
-**For supply chain department:**
--  We should always have items from class A in stock, as this class comprises as little as 10% of SKUs, while bringing most of revenue.
--
+### For supply chain department
+**High priority:**
+- Pay close attention to the 297 references from class A. We should always have these items in stock, as they comprise as little as 10% of SKUs, while bringing 60% of revenue.
+- Focus on accurate demand forecasting and inventory planning for AX and AY items, and only then for AZ items. Use advanced forecasting methods, collaborate with suppliers for better demand visibility.
+
+**Medium priority:**
+- Implement inventory management strategies for the 755 items from class B.
+- For SKUs in BY and BZ classes, use safety stock to minimize stock-out risks while keeping inventory costs under control.
+    
+**Last priority:**
+- For all class C items, use inventory optimization techniques such as periodic review to minimize holding costs, as these items have the highest demand volatility.
 
 - **A-class (Blue)**: the highest-priority SKUs in terms of sales volume and revenue contribution.
   - Pay close attention to these 297 references to ensure optimal inventory levels.
@@ -51,11 +61,6 @@ The resultant ABC-XYZ analysis chart:
 - **C-class items (Red)**: the lowest impact on revenue.
   - Coincidentally, these items have the highest demand volatility, so they should have the last focus.
   - Use inventory optimization techniques such as periodic review to minimize holding costs.
-
-Challenges come from the items with CoV > 1.2
-- A Coefficient of variation greater than 1 indicates unstable demand that needs more attention.
-- Use advanced forecasting methods, collaborate with suppliers for better demand visibility and
-responsiveness to reduce the impact of demand variability. 
 
 ## Background
 A common approach to this inventory management problem is **ABC analysis**. ABC analysis is a method of dividing inventory into three classes - A, B, and C - based on the total annual/monthly consumption value of items. 
