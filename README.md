@@ -1,4 +1,10 @@
 # Product-Segmentation-for-Resource-allocation
+## Table of contents
+* [Project background](https://github.com/Azidalus/Product-Segmentation-for-Resource-allocation#Project-background)
+* [Data structure](https://github.com/Azidalus/Product-Segmentation-for-Resource-allocation#Data-structure)
+* [Executive summary](https://github.com/Azidalus/Product-Segmentation-for-Resource-allocation#Executive-summary)
+* [Recommendations](https://github.com/Azidalus/Product-Segmentation-for-Resource-allocation#Recommendations)
+
 ## Project background
 Amazon is a global e-commerce company selling products of various categories via its website and mobile app. 
 
