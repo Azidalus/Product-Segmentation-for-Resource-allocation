@@ -8,7 +8,7 @@
 ## Project background
 Amazon is a global e-commerce company selling products of various categories via its website and mobile app. 
 
-The company has big amounts of data on its sales. This project analyzes this data in order to optimize Amazon's inventory so that it consists of products that bring the highest revenue.
+The company has big amounts of data on its sales. This project analyzes this data in order to optimize Amazon's inventory so that the supply chain and marketing departments know on what SKU's to focus. hold in stock consists of products that bring the highest revenue.
 
 Insights and recommendations are provided in the following areas:
 
