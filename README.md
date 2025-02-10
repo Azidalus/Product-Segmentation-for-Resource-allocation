@@ -8,10 +8,10 @@
 ## Project background
 Amazon is a global e-commerce company selling products of various categories via its website and mobile app. 
 
-The company has big amounts of data on its sales. This project analyzes this data in order to optimize Amazon's inventory so that the company knows on what SKU's to focus. Based on the analysis insights, recommendations are provided for two departments: supply chain and marketing.
+The company has big amounts of data on its sales. This project analyzes this data in order to optimize Amazon's inventory so that the company knows on what SKUs to focus. Based on the analysis insights, recommendations are provided for two departments: supply chain and marketing.
 
 ## Data structure
-Sales data consists of one table with 487,827 rows. To perform the inventory analysis, data from one month, November 2010, is used, as for a fast-paced industry like retail monthly trends are important. The total number of rows used in analysis is 77,733.
+Sales data consists of one table with 487,827 rows. To perform the inventory analysis, data from one month, November 2010, is used, as for a fast-paced industry like retail monthly trends are important. The total number of rows used in analysis is 77,733 and the total number of SKUs is 2,927.
 
 ![Untitled (5)](https://github.com/user-attachments/assets/fd53b4e3-3454-4737-9a07-e4925063e56d)
 
@@ -22,13 +22,13 @@ The resultant ABC analysis chart:
 
 ![image](https://github.com/user-attachments/assets/129a0efc-22af-4950-93c0-c7fed8ad4bae)
 
-Out of total of 2927 SKUs to be managed:
+Out of total of 2,927 SKUs to be managed:
 - The top 10% products contribute to 60% of revenue (class A). These are high-value items, often characterized by high demand, significant sales volume, and potential stockout risks.
 - 28% products contribute to 25% of revenue (class B). These items hold moderate importance.
 - 62% products contribute to 10% of revenue (class C). These are low-value items, often characterized by low demand and minimal impact on overall inventory costs.
 
 ### ABC-XYZ Analysis
-Since ABC classification is, for many situations, over simplistic, 
+ABC classification can be oversimplistic, so to form more analytically advanced groups of inventory, another dimension is included for product classification: XYZ classification, which classifies SKUs based on their demand/consumption variability. 
 
 The resultant ABC-XYZ analysis chart:
 
@@ -36,7 +36,7 @@ The resultant ABC-XYZ analysis chart:
 
 ## Recommendations
 **For marketing department:**
-- We should invest resources in marketing and promoting class B SKUs in order to increase their sales potential, as this group consists of only 28% of items but contributes to a good percentage of revenue.
+- We should invest resources in marketing and promoting class B SKUs in order to increase their sales potential, as this group consists of only 28% of items but contributes to a good percentage of revenue (25%).
 
 **For supply chain department:**
 -  We should always have items from class A in stock, as this class comprises as little as 10% of SKUs, while bringing most of revenue.
