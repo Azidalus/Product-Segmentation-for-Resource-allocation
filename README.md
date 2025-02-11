@@ -37,9 +37,6 @@ The resultant ABC-XYZ analysis chart:
 Challenges come from the items with CoV > 1.2, as coefficient of variation greater than 1.2 indicates unstable demand that needs more attention.
 
 ## Recommendations
-**For marketing department**
-- We should invest resources in marketing and promoting class B SKUs in order to increase their sales potential, as this group consists of only 28% of items but contributes to a good percentage of revenue (25%).
-
 ### For supply chain department
 **High priority:**
 - Pay close attention to the 297 references from class A. We should always have these items in stock, as they comprise as little as 10% of SKUs, while bringing 60% of revenue.
@@ -51,3 +48,6 @@ Challenges come from the items with CoV > 1.2, as coefficient of variation great
     
 **Last priority:**
 - For all class C items, use inventory optimization techniques such as periodic review to minimize holding costs, as these items have the highest demand volatility.
+
+### For marketing department
+- We should invest resources in marketing and promoting class B SKUs in order to increase their sales potential, as this group consists of only 28% of items but contributes to a good percentage of revenue (25%).
