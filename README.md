@@ -34,7 +34,7 @@ The resultant ABC-XYZ analysis chart:
 
 ![image](https://github.com/user-attachments/assets/1d3ea98d-cddc-49c5-88e6-debe501d1439)
 
-Challenges come from the items with CoV > 1.2. Coefficient of variation greater than 1 indicates unstable demand that needs more attention.
+Challenges come from the items with CoV > 1.2, as coefficient of variation greater than 1.2 indicates unstable demand that needs more attention.
 
 ## Recommendations
 **For marketing department**
