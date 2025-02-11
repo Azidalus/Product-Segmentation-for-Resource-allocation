@@ -28,11 +28,7 @@ Out of total of 2,927 SKUs to be managed:
 - 62% products contribute to 10% of revenue (class C). These are low-value items, often characterized by low demand and minimal impact on overall inventory costs.
 
 ### ABC-XYZ Analysis
-ABC classification can be oversimplistic, so to form more analytically advanced groups of inventory, another dimension is included for product classification: XYZ classification, which classifies SKUs based on their demand/consumption variability. 
-
-- **X-items**: regular demand
-- **Y-items**: strong variability in demand
-- **Z-items**: very irregular and difficult to predict demand
+ABC classification can be oversimplistic, so to form more analytically advanced groups of inventory, another dimension is included for product classification: XYZ classification, which classifies SKUs based on their demand/consumption variability. X class items are with the least uncertainty, while Z class items with the highest uncertainty, meaning the most difficult to manage.
 
 The resultant ABC-XYZ analysis chart:
 
@@ -65,15 +61,3 @@ Challenges come from the items with CoV > 1.2, as coefficient of variation great
 - **C-class items (Red)**: the lowest impact on revenue.
   - Coincidentally, these items have the highest demand volatility, so they should have the last focus.
   - Use inventory optimization techniques such as periodic review to minimize holding costs.
-
-## Background
-A common approach to this inventory management problem is **ABC analysis**. ABC analysis is a method of dividing inventory into three classes - A, B, and C - based on the total annual/monthly consumption value of items. 
-- **Class A items**: constitute 20% of the total number of SKUs in the inventory and account for about 80% of the total consumption value. These are high-value items, often characterized by high demand, significant sales volume, and potential stockout risks. These items must always be in-stock.
-- **Class B items**: represent around 30% of inventory SKUs and contribute approximately 15% of the total consumption value. These items hold moderate importance, requiring a balance between maintaining sufficient stock levels and controlling carrying costs.
-- **Class C items**: typically comprise the remaining 50% of the inventory SKUs but contribute only around 5% of the total consumption value. These are low-value items, often characterized by low demand and minimal impact on overall inventory costs. They should be given low priority in marketing and sales.
-
-However, ABC classification is, for many situations, over simplistic. Prioritising items only based on their value misses many other important factors that should influence what inventory to hold. We therefore can combine it with another common analysis - **XYZ analysis** - to form more analytically advanced groups of inventory. \
-XYZ analysis classifies SKUs based on their demand/consumption variability. X class items are with the lesser uncertainty, while Z class items with the highest uncertainty, meaning the most difficult to manage.
-- **X-items**: regular demand
-- **Y-items**: strong variability in demand
-- **Z-items**: very irregular and difficult to predict demand
