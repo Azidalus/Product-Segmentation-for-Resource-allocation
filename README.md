@@ -51,13 +51,3 @@ Challenges come from the items with CoV > 1.2, as coefficient of variation great
     
 **Last priority:**
 - For all class C items, use inventory optimization techniques such as periodic review to minimize holding costs, as these items have the highest demand volatility.
-
-- **A-class (Blue)**: the highest-priority SKUs in terms of sales volume and revenue contribution.
-  - Pay close attention to these 297 references to ensure optimal inventory levels.
-  - Focus on accurate demand forecasting and inventory planning.
-- **B-class (Yellow)**: moderate impact on revenue.
-  - Implement inventory management strategies for these 755 items.
-  - For SKUs with CoV > 1.2, use safety stock to minimize stock-out risks while keeping inventory costs under control.
-- **C-class items (Red)**: the lowest impact on revenue.
-  - Coincidentally, these items have the highest demand volatility, so they should have the last focus.
-  - Use inventory optimization techniques such as periodic review to minimize holding costs.
