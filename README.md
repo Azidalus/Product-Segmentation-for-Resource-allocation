@@ -30,6 +30,10 @@ Out of total of 2,927 SKUs to be managed:
 ### ABC-XYZ Analysis
 ABC classification can be oversimplistic, so to form more analytically advanced groups of inventory, another dimension is included for product classification: XYZ classification, which classifies SKUs based on their demand/consumption variability. 
 
+- **X-items**: regular demand
+- **Y-items**: strong variability in demand
+- **Z-items**: very irregular and difficult to predict demand
+
 The resultant ABC-XYZ analysis chart:
 
 ![image](https://github.com/user-attachments/assets/1d3ea98d-cddc-49c5-88e6-debe501d1439)
